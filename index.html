@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SkyHop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="menu">
+  <h1>SkyHop</h1>
+
+  <div class="option">
+    <label>Difficulty</label>
+    <select id="difficulty">
+      <option value="easy">Easy</option>
+      <option value="medium" selected>Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+  </div>
+
+  <div class="option">
+    <label>Bird</label>
+    <select id="birdColor">
+      <option value="yellow">Yellow</option>
+      <option value="red">Red</option>
+      <option value="blue">Blue</option>
+      <option value="green">Green</option>
+      <option value="purple">Purple</option>
+    </select>
+  </div>
+
+  <div class="option">
+    <label>Background</label>
+    <select id="background">
+      <option value="sky">Sky</option>
+      <option value="jungle">Jungle</option>
+    </select>
+  </div>
+
+  <button id="playBtn">PLAY</button>
+</div>
+
+
+<div id="game" class="hidden">
+  <button id="menuBtn">☰</button>
+
+  <div id="bird">
+    <img id="birdImg" src="birds/yellow.png">
+  </div>
+
+  <div id="score">0</div>
+</div>
+
+
+<div id="gameOver" class="hidden">
+  <h2>Game Over</h2>
+  <p>Press Space / Enter to Restart</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
