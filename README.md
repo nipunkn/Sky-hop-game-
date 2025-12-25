@@ -83,3 +83,15 @@ Difficulty directly affects:
 
 ## 📂 Project Structure
 
+skyhop/
+├── index.html
+├── style.css
+├── script.js
+├── sky.png
+├── jungle.png
+└── birds/
+├── red.png
+├── blue.png
+├── yellow.png
+├── green.png
+└── purple.png
