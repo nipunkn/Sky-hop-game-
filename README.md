@@ -1,4 +1,4 @@
-# Sky-hop-game-
+# Sky-hop-game-(by-nipunkn)
 # 🎮 SkyHop
 
 **SkyHop** is a smooth, modern take on the classic *Flappy Bird*–style arcade game, built completely using **HTML, CSS, and JavaScript**.  
@@ -95,3 +95,45 @@ skyhop/
 ├── yellow.png
 ├── green.png
 └── purple.png
+
+
+---
+
+## 🧪 What I Implemented
+
+- Custom game physics (gravity, velocity, jump)
+- Procedural pipe generation
+- Accurate collision detection
+- Score logic synced with gameplay
+- Responsive full-screen layout
+- Polished menu UI (production-level feel)
+- Restart system without page reloads
+- Keyboard + mouse + touch support
+
+---
+
+## 📸 Screenshots
+*(Add screenshots here for extra impact)*
+
+---
+
+## 💡 Future Improvements
+
+- 🎵 Sound effects & background music
+- 🪽 Bird flap animation frames
+- 🏆 High score saving
+- 📱 Mobile UI polish
+- 🌅 More environments (desert, night, sunset)
+
+---
+
+## 🙌 Author
+
+Built with passion by **Nipun Kumar**  
+If you like the project, ⭐ star the repo!
+
+---
+
+## 📜 License
+Free to use, learn, and modify.
+
